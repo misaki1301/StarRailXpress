@@ -7,16 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A01E3A61836BBCEA5D24D4F /* Pods_StarRailXpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D8B38112E1CDBE886D78A4 /* Pods_StarRailXpress.framework */; };
+		A1A326CCC8FD348156970B3E /* Pods_StarRailXpressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5624D35C420893374F194281 /* Pods_StarRailXpressTests.framework */; };
+		E5B580770C076593BCE4CD9D /* Pods_StarRailXpress_StarRailXpressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924D4EADDB999A2134112CC7 /* Pods_StarRailXpress_StarRailXpressUITests.framework */; };
 		F51587642ACE16260086ADE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51587632ACE16260086ADE6 /* AppDelegate.swift */; };
 		F51587662ACE16260086ADE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51587652ACE16260086ADE6 /* SceneDelegate.swift */; };
-		F51587682ACE16260086ADE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51587672ACE16260086ADE6 /* ViewController.swift */; };
-		F515876B2ACE16260086ADE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51587692ACE16260086ADE6 /* Main.storyboard */; };
+		F515876B2ACE16260086ADE6 /* TrailBlazerProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51587692ACE16260086ADE6 /* TrailBlazerProfile.storyboard */; };
 		F515876E2ACE16260086ADE6 /* StarRailXpress.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F515876C2ACE16260086ADE6 /* StarRailXpress.xcdatamodeld */; };
 		F51587702ACE16290086ADE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F515876F2ACE16290086ADE6 /* Assets.xcassets */; };
 		F51587732ACE16290086ADE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51587712ACE16290086ADE6 /* LaunchScreen.storyboard */; };
 		F515877E2ACE162A0086ADE6 /* StarRailXpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F515877D2ACE162A0086ADE6 /* StarRailXpressTests.swift */; };
 		F51587882ACE162A0086ADE6 /* StarRailXpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51587872ACE162A0086ADE6 /* StarRailXpressUITests.swift */; };
 		F515878A2ACE162A0086ADE6 /* StarRailXpressUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51587892ACE162A0086ADE6 /* StarRailXpressUITestsLaunchTests.swift */; };
+		F51587982ACE30AF0086ADE6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51587972ACE30AF0086ADE6 /* NetworkManager.swift */; };
+		F521DA392AF5EFF8007AE161 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F521DA382AF5EFF8007AE161 /* Coordinator.swift */; };
+		F5332DC22ACE4619004DF0CD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5332DC12ACE4619004DF0CD /* Player.swift */; };
+		F5332DC52ACEAEFD004DF0CD /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5332DC42ACEAEFD004DF0CD /* ImageView.swift */; };
+		F534EC612AF8068300D51197 /* SearchProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F534EC602AF8068300D51197 /* SearchProfile.storyboard */; };
+		F534EC652AF806FA00D51197 /* SearchProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F534EC642AF806FA00D51197 /* SearchProfileViewController.swift */; };
+		F53C12352B0D34C0001BA87E /* AvatarProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C12342B0D34C0001BA87E /* AvatarProfileImageView.swift */; };
+		F53C12372B0D4D83001BA87E /* AvatarProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C12362B0D4D83001BA87E /* AvatarProfileViewController.swift */; };
+		F593EE0E2AD928C0003284F4 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F593EE0D2AD928C0003284F4 /* LoadingView.xib */; };
+		F593EE122AD92B3E003284F4 /* LoadingModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F593EE112AD92B3E003284F4 /* LoadingModal.swift */; };
+		F5A4E9BB2AF8738D00A25BBA /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = F5A4E9BA2AF8738D00A25BBA /* Nuke */; };
+		F5BB88652AED38D700721251 /* TrailBlazerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB88642AED38D700721251 /* TrailBlazerProfileViewController.swift */; };
+		F5BB88672AED38FA00721251 /* TrailBlazerProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB88662AED38FA00721251 /* TrailBlazerProfilePresenter.swift */; };
+		F5BB88692AED390E00721251 /* TrailBlazerProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB88682AED390E00721251 /* TrailBlazerProfileInteractor.swift */; };
+		F5BB886B2AED393C00721251 /* TrailBlazerProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB886A2AED393C00721251 /* TrailBlazerProfileRouter.swift */; };
+		F5BB886E2AEEEFB000721251 /* Constants+Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB886D2AEEEFB000721251 /* Constants+Identifiers.swift */; };
+		F5D7F5F42AFE13580014072A /* SearchProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D7F5F32AFE13580014072A /* SearchProfileRouter.swift */; };
+		F5D7F5F62AFE19EC0014072A /* SearchProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D7F5F52AFE19EC0014072A /* SearchProfilePresenter.swift */; };
+		F5D7F5F82AFE1AA90014072A /* SearchProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D7F5F72AFE1AA90014072A /* SearchProfileInteractor.swift */; };
+		F5D7F5FA2AFE1AE70014072A /* SearchProfileProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D7F5F92AFE1AE70014072A /* SearchProfileProtocol.swift */; };
+		F5EC700E2ACE35EF001ACF74 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EC700D2ACE35EF001ACF74 /* Language.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +60,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0237CD63C1339DB646F7238E /* Pods-StarRailXpress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarRailXpress.release.xcconfig"; path = "Target Support Files/Pods-StarRailXpress/Pods-StarRailXpress.release.xcconfig"; sourceTree = "<group>"; };
+		055C0A318F7BC8B33FCE59EC /* Pods-StarRailXpress-StarRailXpressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarRailXpress-StarRailXpressUITests.debug.xcconfig"; path = "Target Support Files/Pods-StarRailXpress-StarRailXpressUITests/Pods-StarRailXpress-StarRailXpressUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A5FB9357D3A94A87151D7E5 /* Pods-StarRailXpress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarRailXpress.debug.xcconfig"; path = "Target Support Files/Pods-StarRailXpress/Pods-StarRailXpress.debug.xcconfig"; sourceTree = "<group>"; };
+		51F6AEDF22DFD905F1AA50EC /* Pods-StarRailXpressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarRailXpressTests.debug.xcconfig"; path = "Target Support Files/Pods-StarRailXpressTests/Pods-StarRailXpressTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5624D35C420893374F194281 /* Pods_StarRailXpressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarRailXpressTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		629625A8C166EB745FCCD943 /* Pods-StarRailXpressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarRailXpressTests.release.xcconfig"; path = "Target Support Files/Pods-StarRailXpressTests/Pods-StarRailXpressTests.release.xcconfig"; sourceTree = "<group>"; };
+		89D8B38112E1CDBE886D78A4 /* Pods_StarRailXpress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarRailXpress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		924D4EADDB999A2134112CC7 /* Pods_StarRailXpress_StarRailXpressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarRailXpress_StarRailXpressUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC71AAD2CFEEA9F09F37EAB3 /* Pods-StarRailXpress-StarRailXpressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarRailXpress-StarRailXpressUITests.release.xcconfig"; path = "Target Support Files/Pods-StarRailXpress-StarRailXpressUITests/Pods-StarRailXpress-StarRailXpressUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F51587602ACE16260086ADE6 /* StarRailXpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarRailXpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51587632ACE16260086ADE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F51587652ACE16260086ADE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F51587672ACE16260086ADE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F515876A2ACE16260086ADE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F515876A2ACE16260086ADE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TrailBlazerProfile.storyboard; sourceTree = "<group>"; };
 		F515876D2ACE16260086ADE6 /* StarRailXpress.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarRailXpress.xcdatamodel; sourceTree = "<group>"; };
 		F515876F2ACE16290086ADE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F51587722ACE16290086ADE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +82,27 @@
 		F51587832ACE162A0086ADE6 /* StarRailXpressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarRailXpressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51587872ACE162A0086ADE6 /* StarRailXpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRailXpressUITests.swift; sourceTree = "<group>"; };
 		F51587892ACE162A0086ADE6 /* StarRailXpressUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRailXpressUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F51587972ACE30AF0086ADE6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F521DA382AF5EFF8007AE161 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F5332DC12ACE4619004DF0CD /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F5332DC42ACEAEFD004DF0CD /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		F534EC602AF8068300D51197 /* SearchProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchProfile.storyboard; sourceTree = "<group>"; };
+		F534EC642AF806FA00D51197 /* SearchProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfileViewController.swift; sourceTree = "<group>"; };
+		F53C12342B0D34C0001BA87E /* AvatarProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarProfileImageView.swift; sourceTree = "<group>"; };
+		F53C12362B0D4D83001BA87E /* AvatarProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarProfileViewController.swift; sourceTree = "<group>"; };
+		F593EE0D2AD928C0003284F4 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		F593EE112AD92B3E003284F4 /* LoadingModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingModal.swift; sourceTree = "<group>"; };
+		F593EE132AD9D1F3003284F4 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BB88642AED38D700721251 /* TrailBlazerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailBlazerProfileViewController.swift; sourceTree = "<group>"; };
+		F5BB88662AED38FA00721251 /* TrailBlazerProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailBlazerProfilePresenter.swift; sourceTree = "<group>"; };
+		F5BB88682AED390E00721251 /* TrailBlazerProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailBlazerProfileInteractor.swift; sourceTree = "<group>"; };
+		F5BB886A2AED393C00721251 /* TrailBlazerProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailBlazerProfileRouter.swift; sourceTree = "<group>"; };
+		F5BB886D2AEEEFB000721251 /* Constants+Identifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants+Identifiers.swift"; sourceTree = "<group>"; };
+		F5D7F5F32AFE13580014072A /* SearchProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfileRouter.swift; sourceTree = "<group>"; };
+		F5D7F5F52AFE19EC0014072A /* SearchProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfilePresenter.swift; sourceTree = "<group>"; };
+		F5D7F5F72AFE1AA90014072A /* SearchProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfileInteractor.swift; sourceTree = "<group>"; };
+		F5D7F5F92AFE1AE70014072A /* SearchProfileProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfileProtocol.swift; sourceTree = "<group>"; };
+		F5EC700D2ACE35EF001ACF74 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +110,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A01E3A61836BBCEA5D24D4F /* Pods_StarRailXpress.framework in Frameworks */,
+				F5A4E9BB2AF8738D00A25BBA /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A326CCC8FD348156970B3E /* Pods_StarRailXpressTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +127,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B580770C076593BCE4CD9D /* Pods_StarRailXpress_StarRailXpressUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		035E8FBFBF61418FD1E073D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A5FB9357D3A94A87151D7E5 /* Pods-StarRailXpress.debug.xcconfig */,
+				0237CD63C1339DB646F7238E /* Pods-StarRailXpress.release.xcconfig */,
+				055C0A318F7BC8B33FCE59EC /* Pods-StarRailXpress-StarRailXpressUITests.debug.xcconfig */,
+				BC71AAD2CFEEA9F09F37EAB3 /* Pods-StarRailXpress-StarRailXpressUITests.release.xcconfig */,
+				51F6AEDF22DFD905F1AA50EC /* Pods-StarRailXpressTests.debug.xcconfig */,
+				629625A8C166EB745FCCD943 /* Pods-StarRailXpressTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC350501B75F7077613704FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F593EE132AD9D1F3003284F4 /* Kingfisher.framework */,
+				89D8B38112E1CDBE886D78A4 /* Pods_StarRailXpress.framework */,
+				924D4EADDB999A2134112CC7 /* Pods_StarRailXpress_StarRailXpressUITests.framework */,
+				5624D35C420893374F194281 /* Pods_StarRailXpressTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F51587572ACE16260086ADE6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +165,8 @@
 				F515877C2ACE162A0086ADE6 /* StarRailXpressTests */,
 				F51587862ACE162A0086ADE6 /* StarRailXpressUITests */,
 				F51587612ACE16260086ADE6 /* Products */,
+				035E8FBFBF61418FD1E073D1 /* Pods */,
+				DC350501B75F7077613704FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +183,18 @@
 		F51587622ACE16260086ADE6 /* StarRailXpress */ = {
 			isa = PBXGroup;
 			children = (
+				F521DA372AF5EFDE007AE161 /* Coordinator */,
+				F5BB886C2AEEEF8F00721251 /* Constants */,
+				F534EC5F2AF8065E00D51197 /* SearchProfile */,
+				F5BB885E2AED36A000721251 /* TrailBlazerProfile */,
+				F593EE102AD92B23003284F4 /* Components */,
+				F593EE0C2AD92898003284F4 /* Views */,
+				F5332DC32ACEAECB004DF0CD /* Extensions */,
+				F5EC700C2ACE357E001ACF74 /* Models */,
+				F51587962ACE30650086ADE6 /* Managers */,
 				F51587632ACE16260086ADE6 /* AppDelegate.swift */,
 				F51587652ACE16260086ADE6 /* SceneDelegate.swift */,
-				F51587672ACE16260086ADE6 /* ViewController.swift */,
-				F51587692ACE16260086ADE6 /* Main.storyboard */,
 				F515876F2ACE16290086ADE6 /* Assets.xcassets */,
-				F51587712ACE16290086ADE6 /* LaunchScreen.storyboard */,
 				F51587742ACE16290086ADE6 /* Info.plist */,
 				F515876C2ACE16260086ADE6 /* StarRailXpress.xcdatamodeld */,
 			);
@@ -130,6 +218,99 @@
 			path = StarRailXpressUITests;
 			sourceTree = "<group>";
 		};
+		F51587962ACE30650086ADE6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F51587972ACE30AF0086ADE6 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F521DA372AF5EFDE007AE161 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F521DA382AF5EFF8007AE161 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F5332DC32ACEAECB004DF0CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F5332DC42ACEAEFD004DF0CD /* ImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F534EC5F2AF8065E00D51197 /* SearchProfile */ = {
+			isa = PBXGroup;
+			children = (
+				F534EC642AF806FA00D51197 /* SearchProfileViewController.swift */,
+				F5D7F5F32AFE13580014072A /* SearchProfileRouter.swift */,
+				F5D7F5F52AFE19EC0014072A /* SearchProfilePresenter.swift */,
+				F5D7F5F72AFE1AA90014072A /* SearchProfileInteractor.swift */,
+				F5D7F5F92AFE1AE70014072A /* SearchProfileProtocol.swift */,
+			);
+			path = SearchProfile;
+			sourceTree = "<group>";
+		};
+		F593EE0C2AD92898003284F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F51587712ACE16290086ADE6 /* LaunchScreen.storyboard */,
+				F534EC602AF8068300D51197 /* SearchProfile.storyboard */,
+				F51587692ACE16260086ADE6 /* TrailBlazerProfile.storyboard */,
+				F593EE0D2AD928C0003284F4 /* LoadingView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F593EE102AD92B23003284F4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F593EE112AD92B3E003284F4 /* LoadingModal.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F5BB885E2AED36A000721251 /* TrailBlazerProfile */ = {
+			isa = PBXGroup;
+			children = (
+				F53C12342B0D34C0001BA87E /* AvatarProfileImageView.swift */,
+				F5BB88642AED38D700721251 /* TrailBlazerProfileViewController.swift */,
+				F5BB88662AED38FA00721251 /* TrailBlazerProfilePresenter.swift */,
+				F5BB88682AED390E00721251 /* TrailBlazerProfileInteractor.swift */,
+				F5BB886A2AED393C00721251 /* TrailBlazerProfileRouter.swift */,
+				F5BB88622AED36E600721251 /* Entity */,
+				F53C12362B0D4D83001BA87E /* AvatarProfileViewController.swift */,
+			);
+			path = TrailBlazerProfile;
+			sourceTree = "<group>";
+		};
+		F5BB88622AED36E600721251 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F5332DC12ACE4619004DF0CD /* Player.swift */,
+				F5EC700D2ACE35EF001ACF74 /* Language.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F5BB886C2AEEEF8F00721251 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F5BB886D2AEEEFB000721251 /* Constants+Identifiers.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F5EC700C2ACE357E001ACF74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,15 +318,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F515878D2ACE162A0086ADE6 /* Build configuration list for PBXNativeTarget "StarRailXpress" */;
 			buildPhases = (
+				97DBDF44AAB0DBC40571C97C /* [CP] Check Pods Manifest.lock */,
 				F515875C2ACE16260086ADE6 /* Sources */,
 				F515875D2ACE16260086ADE6 /* Frameworks */,
 				F515875E2ACE16260086ADE6 /* Resources */,
+				F99B9391D482DAE98664C559 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = StarRailXpress;
+			packageProductDependencies = (
+				F5A4E9BA2AF8738D00A25BBA /* Nuke */,
+			);
 			productName = StarRailXpress;
 			productReference = F51587602ACE16260086ADE6 /* StarRailXpress.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +340,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F51587902ACE162A0086ADE6 /* Build configuration list for PBXNativeTarget "StarRailXpressTests" */;
 			buildPhases = (
+				6C93490C564E68131D9D6B6A /* [CP] Check Pods Manifest.lock */,
 				F51587752ACE162A0086ADE6 /* Sources */,
 				F51587762ACE162A0086ADE6 /* Frameworks */,
 				F51587772ACE162A0086ADE6 /* Resources */,
@@ -172,9 +359,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F51587932ACE162A0086ADE6 /* Build configuration list for PBXNativeTarget "StarRailXpressUITests" */;
 			buildPhases = (
+				CBCA5229F07AEB79CECFFC39 /* [CP] Check Pods Manifest.lock */,
 				F515877F2ACE162A0086ADE6 /* Sources */,
 				F51587802ACE162A0086ADE6 /* Frameworks */,
 				F51587812ACE162A0086ADE6 /* Resources */,
+				860F60150ED16EFEB92035ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +407,9 @@
 				Base,
 			);
 			mainGroup = F51587572ACE16260086ADE6;
+			packageReferences = (
+				F5A4E9B92AF8738D00A25BBA /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = F51587612ACE16260086ADE6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,8 +427,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F51587732ACE16290086ADE6 /* LaunchScreen.storyboard in Resources */,
+				F593EE0E2AD928C0003284F4 /* LoadingView.xib in Resources */,
+				F534EC612AF8068300D51197 /* SearchProfile.storyboard in Resources */,
 				F51587702ACE16290086ADE6 /* Assets.xcassets in Resources */,
-				F515876B2ACE16260086ADE6 /* Main.storyboard in Resources */,
+				F515876B2ACE16260086ADE6 /* TrailBlazerProfile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +450,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C93490C564E68131D9D6B6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarRailXpressTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		860F60150ED16EFEB92035ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarRailXpress-StarRailXpressUITests/Pods-StarRailXpress-StarRailXpressUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarRailXpress-StarRailXpressUITests/Pods-StarRailXpress-StarRailXpressUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarRailXpress-StarRailXpressUITests/Pods-StarRailXpress-StarRailXpressUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97DBDF44AAB0DBC40571C97C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarRailXpress-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBCA5229F07AEB79CECFFC39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarRailXpress-StarRailXpressUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F99B9391D482DAE98664C559 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarRailXpress/Pods-StarRailXpress-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarRailXpress/Pods-StarRailXpress-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarRailXpress/Pods-StarRailXpress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F515875C2ACE16260086ADE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F51587682ACE16260086ADE6 /* ViewController.swift in Sources */,
+				F521DA392AF5EFF8007AE161 /* Coordinator.swift in Sources */,
+				F5BB88692AED390E00721251 /* TrailBlazerProfileInteractor.swift in Sources */,
+				F5332DC52ACEAEFD004DF0CD /* ImageView.swift in Sources */,
+				F5D7F5F62AFE19EC0014072A /* SearchProfilePresenter.swift in Sources */,
+				F5D7F5FA2AFE1AE70014072A /* SearchProfileProtocol.swift in Sources */,
 				F51587642ACE16260086ADE6 /* AppDelegate.swift in Sources */,
+				F51587982ACE30AF0086ADE6 /* NetworkManager.swift in Sources */,
+				F5D7F5F82AFE1AA90014072A /* SearchProfileInteractor.swift in Sources */,
+				F534EC652AF806FA00D51197 /* SearchProfileViewController.swift in Sources */,
+				F5EC700E2ACE35EF001ACF74 /* Language.swift in Sources */,
 				F515876E2ACE16260086ADE6 /* StarRailXpress.xcdatamodeld in Sources */,
+				F53C12372B0D4D83001BA87E /* AvatarProfileViewController.swift in Sources */,
+				F5BB88672AED38FA00721251 /* TrailBlazerProfilePresenter.swift in Sources */,
 				F51587662ACE16260086ADE6 /* SceneDelegate.swift in Sources */,
+				F53C12352B0D34C0001BA87E /* AvatarProfileImageView.swift in Sources */,
+				F5BB88652AED38D700721251 /* TrailBlazerProfileViewController.swift in Sources */,
+				F5BB886E2AEEEFB000721251 /* Constants+Identifiers.swift in Sources */,
+				F5D7F5F42AFE13580014072A /* SearchProfileRouter.swift in Sources */,
+				F5332DC22ACE4619004DF0CD /* Player.swift in Sources */,
+				F593EE122AD92B3E003284F4 /* LoadingModal.swift in Sources */,
+				F5BB886B2AED393C00721251 /* TrailBlazerProfileRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,12 +615,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F51587692ACE16260086ADE6 /* Main.storyboard */ = {
+		F51587692ACE16260086ADE6 /* TrailBlazerProfile.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F515876A2ACE16260086ADE6 /* Base */,
 			);
-			name = Main.storyboard;
+			name = TrailBlazerProfile.storyboard;
 			sourceTree = "<group>";
 		};
 		F51587712ACE16290086ADE6 /* LaunchScreen.storyboard */ = {
@@ -357,7 +671,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -372,7 +686,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -420,7 +734,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -429,7 +743,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -441,6 +755,7 @@
 		};
 		F515878E2ACE162A0086ADE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5FB9357D3A94A87151D7E5 /* Pods-StarRailXpress.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,11 +764,12 @@
 				DEVELOPMENT_TEAM = B97JTSGWZ2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StarRailXpress/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +785,7 @@
 		};
 		F515878F2ACE162A0086ADE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0237CD63C1339DB646F7238E /* Pods-StarRailXpress.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,11 +794,12 @@
 				DEVELOPMENT_TEAM = B97JTSGWZ2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StarRailXpress/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,6 +815,7 @@
 		};
 		F51587912ACE162A0086ADE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F6AEDF22DFD905F1AA50EC /* Pods-StarRailXpressTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +836,7 @@
 		};
 		F51587922ACE162A0086ADE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 629625A8C166EB745FCCD943 /* Pods-StarRailXpressTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +857,7 @@
 		};
 		F51587942ACE162A0086ADE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 055C0A318F7BC8B33FCE59EC /* Pods-StarRailXpress-StarRailXpressUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +876,7 @@
 		};
 		F51587952ACE162A0086ADE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC71AAD2CFEEA9F09F37EAB3 /* Pods-StarRailXpress-StarRailXpressUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -611,6 +933,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5A4E9B92AF8738D00A25BBA /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.1.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5A4E9BA2AF8738D00A25BBA /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5A4E9B92AF8738D00A25BBA /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F515876C2ACE16260086ADE6 /* StarRailXpress.xcdatamodeld */ = {
