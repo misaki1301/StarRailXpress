@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		F51587882ACE162A0086ADE6 /* StarRailXpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51587872ACE162A0086ADE6 /* StarRailXpressUITests.swift */; };
 		F515878A2ACE162A0086ADE6 /* StarRailXpressUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51587892ACE162A0086ADE6 /* StarRailXpressUITestsLaunchTests.swift */; };
 		F51587982ACE30AF0086ADE6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51587972ACE30AF0086ADE6 /* NetworkManager.swift */; };
+		F51A0CC92B40ABCD000F09C9 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A0CC82B40ABCD000F09C9 /* RootCoordinator.swift */; };
 		F521DA392AF5EFF8007AE161 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F521DA382AF5EFF8007AE161 /* Coordinator.swift */; };
 		F5332DC22ACE4619004DF0CD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5332DC12ACE4619004DF0CD /* Player.swift */; };
 		F5332DC52ACEAEFD004DF0CD /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5332DC42ACEAEFD004DF0CD /* ImageView.swift */; };
@@ -27,14 +28,27 @@
 		F534EC652AF806FA00D51197 /* SearchProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F534EC642AF806FA00D51197 /* SearchProfileViewController.swift */; };
 		F53C12352B0D34C0001BA87E /* AvatarProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C12342B0D34C0001BA87E /* AvatarProfileImageView.swift */; };
 		F53C12372B0D4D83001BA87E /* AvatarProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C12362B0D4D83001BA87E /* AvatarProfileViewController.swift */; };
+		F55B212A2B3227820082BA3D /* DonationsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55B21292B3227820082BA3D /* DonationsView.storyboard */; };
+		F55B212D2B3229BA0082BA3D /* DonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55B212C2B3229BA0082BA3D /* DonationsViewController.swift */; };
+		F55B21302B3698400082BA3D /* ShokoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55B212F2B3698400082BA3D /* ShokoTableViewCell.swift */; };
 		F593EE0E2AD928C0003284F4 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F593EE0D2AD928C0003284F4 /* LoadingView.xib */; };
 		F593EE122AD92B3E003284F4 /* LoadingModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F593EE112AD92B3E003284F4 /* LoadingModal.swift */; };
+		F598F3DE2B37C6E900EC8932 /* AchievementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F3DD2B37C6E900EC8932 /* AchievementsViewController.swift */; };
+		F598F3E02B37C8CA00EC8932 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F3DF2B37C8CA00EC8932 /* AchievementsView.swift */; };
+		F598F3E32B37C9B800EC8932 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F598F3E22B37C9B800EC8932 /* Achievement.swift */; };
 		F5A4E9BB2AF8738D00A25BBA /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = F5A4E9BA2AF8738D00A25BBA /* Nuke */; };
+		F5B938D22B8D9FA600A6F10E /* StarRailCharactersSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F5B938D12B8D9FA600A6F10E /* StarRailCharactersSwiftUI */; };
 		F5BB88652AED38D700721251 /* TrailBlazerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB88642AED38D700721251 /* TrailBlazerProfileViewController.swift */; };
 		F5BB88672AED38FA00721251 /* TrailBlazerProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB88662AED38FA00721251 /* TrailBlazerProfilePresenter.swift */; };
 		F5BB88692AED390E00721251 /* TrailBlazerProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB88682AED390E00721251 /* TrailBlazerProfileInteractor.swift */; };
 		F5BB886B2AED393C00721251 /* TrailBlazerProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB886A2AED393C00721251 /* TrailBlazerProfileRouter.swift */; };
 		F5BB886E2AEEEFB000721251 /* Constants+Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB886D2AEEEFB000721251 /* Constants+Identifiers.swift */; };
+		F5BE2D0E2B1463C90052FDF3 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BE2D0D2B1463C90052FDF3 /* UIView.swift */; };
+		F5BE2D102B1473AD0052FDF3 /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BE2D0F2B1473AD0052FDF3 /* CharacterDetailViewController.swift */; };
+		F5BE2D132B1473F20052FDF3 /* CharacterDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BE2D122B1473F20052FDF3 /* CharacterDetail.storyboard */; };
+		F5D14E962B648D3100BB4C73 /* MountainViewUI in Frameworks */ = {isa = PBXBuildFile; productRef = F5D14E952B648D3100BB4C73 /* MountainViewUI */; };
+		F5D14E992B648D5200BB4C73 /* StarRailProfiler in Frameworks */ = {isa = PBXBuildFile; productRef = F5D14E982B648D5200BB4C73 /* StarRailProfiler */; };
+		F5D14E9C2B648D6C00BB4C73 /* StarRailCharacters in Frameworks */ = {isa = PBXBuildFile; productRef = F5D14E9B2B648D6C00BB4C73 /* StarRailCharacters */; };
 		F5D7F5F42AFE13580014072A /* SearchProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D7F5F32AFE13580014072A /* SearchProfileRouter.swift */; };
 		F5D7F5F62AFE19EC0014072A /* SearchProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D7F5F52AFE19EC0014072A /* SearchProfilePresenter.swift */; };
 		F5D7F5F82AFE1AA90014072A /* SearchProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D7F5F72AFE1AA90014072A /* SearchProfileInteractor.swift */; };
@@ -83,6 +97,7 @@
 		F51587872ACE162A0086ADE6 /* StarRailXpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRailXpressUITests.swift; sourceTree = "<group>"; };
 		F51587892ACE162A0086ADE6 /* StarRailXpressUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRailXpressUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F51587972ACE30AF0086ADE6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F51A0CC82B40ABCD000F09C9 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
 		F521DA382AF5EFF8007AE161 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		F5332DC12ACE4619004DF0CD /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		F5332DC42ACEAEFD004DF0CD /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
@@ -90,14 +105,23 @@
 		F534EC642AF806FA00D51197 /* SearchProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfileViewController.swift; sourceTree = "<group>"; };
 		F53C12342B0D34C0001BA87E /* AvatarProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarProfileImageView.swift; sourceTree = "<group>"; };
 		F53C12362B0D4D83001BA87E /* AvatarProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarProfileViewController.swift; sourceTree = "<group>"; };
+		F55B21292B3227820082BA3D /* DonationsView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DonationsView.storyboard; sourceTree = "<group>"; };
+		F55B212C2B3229BA0082BA3D /* DonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationsViewController.swift; sourceTree = "<group>"; };
+		F55B212F2B3698400082BA3D /* ShokoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShokoTableViewCell.swift; sourceTree = "<group>"; };
 		F593EE0D2AD928C0003284F4 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		F593EE112AD92B3E003284F4 /* LoadingModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingModal.swift; sourceTree = "<group>"; };
 		F593EE132AD9D1F3003284F4 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F598F3DD2B37C6E900EC8932 /* AchievementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsViewController.swift; sourceTree = "<group>"; };
+		F598F3DF2B37C8CA00EC8932 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		F598F3E22B37C9B800EC8932 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
 		F5BB88642AED38D700721251 /* TrailBlazerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailBlazerProfileViewController.swift; sourceTree = "<group>"; };
 		F5BB88662AED38FA00721251 /* TrailBlazerProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailBlazerProfilePresenter.swift; sourceTree = "<group>"; };
 		F5BB88682AED390E00721251 /* TrailBlazerProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailBlazerProfileInteractor.swift; sourceTree = "<group>"; };
 		F5BB886A2AED393C00721251 /* TrailBlazerProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailBlazerProfileRouter.swift; sourceTree = "<group>"; };
 		F5BB886D2AEEEFB000721251 /* Constants+Identifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants+Identifiers.swift"; sourceTree = "<group>"; };
+		F5BE2D0D2B1463C90052FDF3 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		F5BE2D0F2B1473AD0052FDF3 /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
+		F5BE2D122B1473F20052FDF3 /* CharacterDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CharacterDetail.storyboard; sourceTree = "<group>"; };
 		F5D7F5F32AFE13580014072A /* SearchProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfileRouter.swift; sourceTree = "<group>"; };
 		F5D7F5F52AFE19EC0014072A /* SearchProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfilePresenter.swift; sourceTree = "<group>"; };
 		F5D7F5F72AFE1AA90014072A /* SearchProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProfileInteractor.swift; sourceTree = "<group>"; };
@@ -110,6 +134,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D14E9C2B648D6C00BB4C73 /* StarRailCharacters in Frameworks */,
+				F5D14E962B648D3100BB4C73 /* MountainViewUI in Frameworks */,
+				F5D14E992B648D5200BB4C73 /* StarRailProfiler in Frameworks */,
+				F5B938D22B8D9FA600A6F10E /* StarRailCharactersSwiftUI in Frameworks */,
 				1A01E3A61836BBCEA5D24D4F /* Pods_StarRailXpress.framework in Frameworks */,
 				F5A4E9BB2AF8738D00A25BBA /* Nuke in Frameworks */,
 			);
@@ -184,13 +212,15 @@
 			isa = PBXGroup;
 			children = (
 				F521DA372AF5EFDE007AE161 /* Coordinator */,
+				F598F3DC2B37C05000EC8932 /* Achievements */,
+				F55B212B2B32299D0082BA3D /* Donations */,
 				F5BB886C2AEEEF8F00721251 /* Constants */,
 				F534EC5F2AF8065E00D51197 /* SearchProfile */,
 				F5BB885E2AED36A000721251 /* TrailBlazerProfile */,
+				F5BE2D112B1473C80052FDF3 /* CharacterDetail */,
 				F593EE102AD92B23003284F4 /* Components */,
 				F593EE0C2AD92898003284F4 /* Views */,
 				F5332DC32ACEAECB004DF0CD /* Extensions */,
-				F5EC700C2ACE357E001ACF74 /* Models */,
 				F51587962ACE30650086ADE6 /* Managers */,
 				F51587632ACE16260086ADE6 /* AppDelegate.swift */,
 				F51587652ACE16260086ADE6 /* SceneDelegate.swift */,
@@ -230,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				F521DA382AF5EFF8007AE161 /* Coordinator.swift */,
+				F51A0CC82B40ABCD000F09C9 /* RootCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -238,6 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				F5332DC42ACEAEFD004DF0CD /* ImageView.swift */,
+				F5BE2D0D2B1463C90052FDF3 /* UIView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -254,6 +286,23 @@
 			path = SearchProfile;
 			sourceTree = "<group>";
 		};
+		F55B212B2B32299D0082BA3D /* Donations */ = {
+			isa = PBXGroup;
+			children = (
+				F55B212E2B3698080082BA3D /* Cell */,
+				F55B212C2B3229BA0082BA3D /* DonationsViewController.swift */,
+			);
+			path = Donations;
+			sourceTree = "<group>";
+		};
+		F55B212E2B3698080082BA3D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F55B212F2B3698400082BA3D /* ShokoTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		F593EE0C2AD92898003284F4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +310,8 @@
 				F534EC602AF8068300D51197 /* SearchProfile.storyboard */,
 				F51587692ACE16260086ADE6 /* TrailBlazerProfile.storyboard */,
 				F593EE0D2AD928C0003284F4 /* LoadingView.xib */,
+				F5BE2D122B1473F20052FDF3 /* CharacterDetail.storyboard */,
+				F55B21292B3227820082BA3D /* DonationsView.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -271,6 +322,24 @@
 				F593EE112AD92B3E003284F4 /* LoadingModal.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		F598F3DC2B37C05000EC8932 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				F598F3E12B37C91800EC8932 /* Entity */,
+				F598F3DD2B37C6E900EC8932 /* AchievementsViewController.swift */,
+				F598F3DF2B37C8CA00EC8932 /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		F598F3E12B37C91800EC8932 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F598F3E22B37C9B800EC8932 /* Achievement.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		F5BB885E2AED36A000721251 /* TrailBlazerProfile */ = {
@@ -304,11 +373,12 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
-		F5EC700C2ACE357E001ACF74 /* Models */ = {
+		F5BE2D112B1473C80052FDF3 /* CharacterDetail */ = {
 			isa = PBXGroup;
 			children = (
+				F5BE2D0F2B1473AD0052FDF3 /* CharacterDetailViewController.swift */,
 			);
-			path = Models;
+			path = CharacterDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +401,10 @@
 			name = StarRailXpress;
 			packageProductDependencies = (
 				F5A4E9BA2AF8738D00A25BBA /* Nuke */,
+				F5D14E952B648D3100BB4C73 /* MountainViewUI */,
+				F5D14E982B648D5200BB4C73 /* StarRailProfiler */,
+				F5D14E9B2B648D6C00BB4C73 /* StarRailCharacters */,
+				F5B938D12B8D9FA600A6F10E /* StarRailCharactersSwiftUI */,
 			);
 			productName = StarRailXpress;
 			productReference = F51587602ACE16260086ADE6 /* StarRailXpress.app */;
@@ -409,6 +483,10 @@
 			mainGroup = F51587572ACE16260086ADE6;
 			packageReferences = (
 				F5A4E9B92AF8738D00A25BBA /* XCRemoteSwiftPackageReference "Nuke" */,
+				F5D14E942B648D3100BB4C73 /* XCLocalSwiftPackageReference "../MountainViewUI" */,
+				F5D14E972B648D5200BB4C73 /* XCLocalSwiftPackageReference "../StarRailProfiler" */,
+				F5D14E9A2B648D6C00BB4C73 /* XCLocalSwiftPackageReference "../Characters-StarRail" */,
+				F5B938D02B8D9FA600A6F10E /* XCLocalSwiftPackageReference "../StarRailCharactersSwiftUI" */,
 			);
 			productRefGroup = F51587612ACE16260086ADE6 /* Products */;
 			projectDirPath = "";
@@ -427,8 +505,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F51587732ACE16290086ADE6 /* LaunchScreen.storyboard in Resources */,
+				F55B212A2B3227820082BA3D /* DonationsView.storyboard in Resources */,
 				F593EE0E2AD928C0003284F4 /* LoadingView.xib in Resources */,
 				F534EC612AF8068300D51197 /* SearchProfile.storyboard in Resources */,
+				F5BE2D132B1473F20052FDF3 /* CharacterDetail.storyboard in Resources */,
 				F51587702ACE16290086ADE6 /* Assets.xcassets in Resources */,
 				F515876B2ACE16260086ADE6 /* TrailBlazerProfile.storyboard in Resources */,
 			);
@@ -559,10 +639,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F521DA392AF5EFF8007AE161 /* Coordinator.swift in Sources */,
+				F598F3E02B37C8CA00EC8932 /* AchievementsView.swift in Sources */,
 				F5BB88692AED390E00721251 /* TrailBlazerProfileInteractor.swift in Sources */,
+				F5BE2D0E2B1463C90052FDF3 /* UIView.swift in Sources */,
 				F5332DC52ACEAEFD004DF0CD /* ImageView.swift in Sources */,
 				F5D7F5F62AFE19EC0014072A /* SearchProfilePresenter.swift in Sources */,
 				F5D7F5FA2AFE1AE70014072A /* SearchProfileProtocol.swift in Sources */,
+				F598F3DE2B37C6E900EC8932 /* AchievementsViewController.swift in Sources */,
+				F55B212D2B3229BA0082BA3D /* DonationsViewController.swift in Sources */,
+				F598F3E32B37C9B800EC8932 /* Achievement.swift in Sources */,
 				F51587642ACE16260086ADE6 /* AppDelegate.swift in Sources */,
 				F51587982ACE30AF0086ADE6 /* NetworkManager.swift in Sources */,
 				F5D7F5F82AFE1AA90014072A /* SearchProfileInteractor.swift in Sources */,
@@ -571,12 +656,15 @@
 				F515876E2ACE16260086ADE6 /* StarRailXpress.xcdatamodeld in Sources */,
 				F53C12372B0D4D83001BA87E /* AvatarProfileViewController.swift in Sources */,
 				F5BB88672AED38FA00721251 /* TrailBlazerProfilePresenter.swift in Sources */,
+				F55B21302B3698400082BA3D /* ShokoTableViewCell.swift in Sources */,
 				F51587662ACE16260086ADE6 /* SceneDelegate.swift in Sources */,
 				F53C12352B0D34C0001BA87E /* AvatarProfileImageView.swift in Sources */,
 				F5BB88652AED38D700721251 /* TrailBlazerProfileViewController.swift in Sources */,
 				F5BB886E2AEEEFB000721251 /* Constants+Identifiers.swift in Sources */,
 				F5D7F5F42AFE13580014072A /* SearchProfileRouter.swift in Sources */,
+				F51A0CC92B40ABCD000F09C9 /* RootCoordinator.swift in Sources */,
 				F5332DC22ACE4619004DF0CD /* Player.swift in Sources */,
+				F5BE2D102B1473AD0052FDF3 /* CharacterDetailViewController.swift in Sources */,
 				F593EE122AD92B3E003284F4 /* LoadingModal.swift in Sources */,
 				F5BB886B2AED393C00721251 /* TrailBlazerProfileRouter.swift in Sources */,
 			);
@@ -686,7 +774,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -743,7 +831,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -769,7 +857,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -799,7 +887,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -823,7 +911,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B97JTSGWZ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.StarRailXpressTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -844,7 +932,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B97JTSGWZ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.StarRailXpressTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -934,6 +1022,25 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		F5B938D02B8D9FA600A6F10E /* XCLocalSwiftPackageReference "../StarRailCharactersSwiftUI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../StarRailCharactersSwiftUI;
+		};
+		F5D14E942B648D3100BB4C73 /* XCLocalSwiftPackageReference "../MountainViewUI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../MountainViewUI;
+		};
+		F5D14E972B648D5200BB4C73 /* XCLocalSwiftPackageReference "../StarRailProfiler" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../StarRailProfiler;
+		};
+		F5D14E9A2B648D6C00BB4C73 /* XCLocalSwiftPackageReference "../Characters-StarRail" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../Characters-StarRail";
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		F5A4E9B92AF8738D00A25BBA /* XCRemoteSwiftPackageReference "Nuke" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -950,6 +1057,22 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F5A4E9B92AF8738D00A25BBA /* XCRemoteSwiftPackageReference "Nuke" */;
 			productName = Nuke;
+		};
+		F5B938D12B8D9FA600A6F10E /* StarRailCharactersSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StarRailCharactersSwiftUI;
+		};
+		F5D14E952B648D3100BB4C73 /* MountainViewUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MountainViewUI;
+		};
+		F5D14E982B648D5200BB4C73 /* StarRailProfiler */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StarRailProfiler;
+		};
+		F5D14E9B2B648D6C00BB4C73 /* StarRailCharacters */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StarRailCharacters;
 		};
 /* End XCSwiftPackageProductDependency section */
 

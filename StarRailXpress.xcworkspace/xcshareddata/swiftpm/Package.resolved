@@ -1,14 +1,24 @@
 {
+  "originHash" : "aad397cfcb260e0dc0171f0f0e7b041157f4edab6ccb77ecb6483d9afb92eba7",
   "pins" : [
     {
       "identity" : "nuke",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/kean/Nuke",
       "state" : {
-        "revision" : "3f666f120b63ea7de57d42e9a7c9b47f8e7a290b",
-        "version" : "12.1.6"
+        "revision" : "1694798e876113d44f6ec6ead965d7286695981d",
+        "version" : "12.2.0"
+      }
+    },
+    {
+      "identity" : "swordward",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/misaki1301/SwordWard",
+      "state" : {
+        "branch" : "main",
+        "revision" : "6f45133d9076070933980239cb0884437659b1d3"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

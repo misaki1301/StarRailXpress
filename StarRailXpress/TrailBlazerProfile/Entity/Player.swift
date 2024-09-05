@@ -21,7 +21,8 @@ struct Player: Codable {
 }
 
 struct SpaceInfo: Codable {
-	var challengeData: ChallengeData
+	var memoryData: String?
+	var challengeData: ChallengeData?
 	var passAreaProgress: UInt
 	var lightConeCount: UInt
 	var avatarCount: UInt

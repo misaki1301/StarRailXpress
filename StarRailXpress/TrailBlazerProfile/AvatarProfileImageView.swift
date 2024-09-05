@@ -21,18 +21,23 @@ struct AvatarProfileImageView: View {
 				} else {
 					AsyncImage(url: URL(string: url)) { image in
 						image.resizable()
+                            .clipShape(Circle())
 						
 					} placeholder: {
 						ProgressView()
 					}
 				}
 			}.overlay {
-				Circle().stroke(.gray, lineWidth: 4.0)
+				Circle().stroke(.gray, lineWidth: 2.0)
 			}
-		}
+        }
     }
 }
 
-#Preview(traits: .fixedLayout(width: 200, height: 200)) {
-	AvatarProfileImageView(localeImage: "minamisaki")
+struct AvatarProfileImageView_Preview: PreviewProvider {
+	static var previews: some View {
+		AvatarProfileImageView(localeImage: "minamisaki")
+			.previewLayout(.fixed(width: 200, height: 200))
+
+	}
 }

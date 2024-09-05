@@ -12,22 +12,23 @@ protocol TrailBlazerUI: AnyObject {
 }
 
 class TrailBlazerProfilePresenter {
-	
-	var ui: TrailBlazerUI?
 	var model: Player?
+    var view: TrailBlazerProfileViewController
+    var interactor: TrailBlazerProfileInteractor
+    var router: TrailBlazerProfileRouter
 	
-	private let trailBlazerProfileInteractor: TrailBlazerProfileInteractor
-	
-	init(trailBlazerProfileInteractor: TrailBlazerProfileInteractor) {
-		self.trailBlazerProfileInteractor = trailBlazerProfileInteractor
+    init(view: TrailBlazerProfileViewController, interactor: TrailBlazerProfileInteractor, router: TrailBlazerProfileRouter) {
+        self.interactor = interactor
+        self.router = router
+        self.view = view
 	}
 	
 	func onViewAppear() {
 		Task {
-			let response = await trailBlazerProfileInteractor.getTrailBlazerProfile()
-            print(response.player)
+			let response = await interactor.getTrailBlazerProfile()
+            //print(response.player)
             DispatchQueue.main.async {
-                self.ui?.update(profile: response.player)
+                self.view.update(profile: response.player)
             }
 		}
 	}

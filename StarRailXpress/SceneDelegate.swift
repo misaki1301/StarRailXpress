@@ -10,7 +10,6 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-	//var trailBlazerProfileRouter = TrailBlazerProfileRouter()
     var coordinator: AppCoordinator?
 
 
@@ -19,16 +18,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
-		//window = UIWindow(windowScene: windowScene)
-		//trailBlazerProfileRouter.showTrailBlazerProfile(window: window)
         let window = UIWindow(windowScene: windowScene)
         let navController = UINavigationController()
         coordinator = AppCoordinator(navController: navController, window: window)
         coordinator?.start()
-        
-        //window.rootViewController = navController
         self.window = window
-        //window.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

@@ -32,8 +32,11 @@ class TrailBlazerProfileViewController: UIViewController {
 		//view.backgroundColor = .blue
         print("Trailblazer Profile loaded?")
 		let vc = UIHostingController(rootView: AvatarProfileImageView())
-		let avatarView = vc.view!
-		presenter?.onViewAppear()
+        let avatarView = vc.view!
+        guard let presenter else {
+            return
+        }
+        presenter.onViewAppear()
 	}
 	
 	override func viewDidAppear(_ animated: Bool) {
@@ -43,17 +46,6 @@ class TrailBlazerProfileViewController: UIViewController {
 	override func viewWillAppear(_ animated: Bool) {
 		setupGradientBackground()
 		super.viewWillAppear(animated)
-	}
-	
-	func setupGradientBackground() {
-		let gradientLayer = CAGradientLayer()
-		gradientLayer.frame = view.bounds
-		gradientLayer.colors = [
-			UIColor(named: "gradientOne")!.cgColor,
-			UIColor(named: "gradientTwo")!.cgColor,
-			UIColor(named: "gradientThree")!.cgColor
-		]
-		view.layer.insertSublayer(gradientLayer, at: 0)
 	}
 }
 

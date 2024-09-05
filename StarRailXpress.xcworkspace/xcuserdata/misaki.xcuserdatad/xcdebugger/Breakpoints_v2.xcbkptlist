@@ -7,32 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D9AE20BA-6513-43C1-963E-EC374F248244"
-            shouldBeEnabled = "Yes"
+            uuid = "6C972423-3DF0-4480-9CA7-7E357EB684C2"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "StarRailXpress/TrailBlazerProfile/TrailBlazerProfileViewController.swift"
+            filePath = "StarRailXpress/Managers/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "setupGradientBackground()"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "getDataByUserId(for:lang:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1502A856-AEF4-46B2-BF85-9C5387D0C34F"
-            shouldBeEnabled = "Yes"
+            uuid = "B884E31A-334B-4BCA-9911-63EA5281DA21"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "StarRailXpress/TrailBlazerProfile/TrailBlazerProfileViewController.swift"
+            filePath = "StarRailXpress/Managers/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "setupGradientBackground()"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "getDataByUserId(for:lang:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

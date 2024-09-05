@@ -10,7 +10,7 @@ import Foundation
 class TrailBlazerProfileInteractor {
 	
 	func getTrailBlazerProfile() async -> PlayerResponse {
-		let response = try! await NetworkManager.shared.getDataByUserId(for: "600274840", lang: .english)
+        let response = try! await NetworkManager.shared.getDataByUserId(for: "600274840", lang: .english)
 		return response
 	}
 }

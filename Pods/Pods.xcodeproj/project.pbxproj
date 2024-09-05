@@ -3,22 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		00BEA6029C428FEE644AC3D42AD83282 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3799EF1BB9F91022F3940A336ABA8BB /* ImagePrefetcher.swift */; };
 		0285857A24F66E925987A5876F0BE63B /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C87E40B23F1E8549A416BC1F293D9BB /* ImageDataProvider.swift */; };
+		03D03203F0E83D6212880F389B79E990 /* Pods-StarRailXpress-StarRailXpressUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEF8F4B0D7CF33DE3052A8650EA440 /* Pods-StarRailXpress-StarRailXpressUITests-dummy.m */; };
 		0510E8EA51914CB2176AD0F173937FAB /* KFImageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4BE3DA44B5CA9EA978930D1D320C58 /* KFImageRenderer.swift */; };
 		05228565AAA7FCED4BAFB2B7EF71D53D /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D29E5C3E1BDF0E44CB3DAA4158A87 /* KingfisherOptionsInfo.swift */; };
 		059639E700DEFAEF08F56484E5F67BE7 /* NSButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F8ACDFC1B2CFF07FB9D800D506D54F /* NSButton+Kingfisher.swift */; };
+		075F700BF2CB56728A9B232403F39876 /* Pods-StarRailXpress-StarRailXpressUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 386FE2BFF800F85470E7722B00620D4F /* Pods-StarRailXpress-StarRailXpressUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		082EDC820D76DF95C71A5018112DE512 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCF9A6DD6053503818A700B70487F4 /* UIButton+Kingfisher.swift */; };
 		0ED8FBFD9A86D21BF69137EC9350E575 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DBA903C8B91871A1B4432F452266FD /* SessionDelegate.swift */; };
+		0F279753701BF829CD2C093F56DD7252 /* SkeletonTableRail-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF946E567E24A252ADF8132B94986C99 /* SkeletonTableRail-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1185A2B40E14F2FCBC761FC99777CAD8 /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD68F15E4D4918367FC88EB9DC8FCE /* ExtensionHelpers.swift */; };
 		122980E44B15C64CF0B14DC94D7EB5C9 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1BBADC0C31E0AF487F1F11B235A95EB /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1952485AFF7A1BCCA4D4B142E82FE627 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B893F3DAFC7D3C72A765D6725D0774 /* AnimatedImageView.swift */; };
 		1AA89F327105C026976BF6E831B193A2 /* ImageBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA76E48675E34635A770C316E9FEB84 /* ImageBinder.swift */; };
-		1AF90B3FE071D5D301057D6C10AE3B7C /* Pods-StarRailXpress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EF6CF9D01D6C41FE2B78E8138172 /* Pods-StarRailXpress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C4E594589FB6B5E83F054524D083254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5E681BB96F09287CB36BD2A68D8440 /* Main.storyboard */; };
 		1FD2928BC156D990D68B105F518C60B6 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F143F1D83379BDB9363E3B216AEF73 /* MemoryStorage.swift */; };
 		1FE693B5ACC6AD7320CEFC20B64546E4 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B8BB66619A56BE9921CB8D9DF82767 /* KingfisherManager.swift */; };
 		1FEE89BF952BE7ACA46E642DA2E48CA2 /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF909AE0612371ECB2A5A760F6F4598 /* DiskStorage.swift */; };
@@ -29,11 +32,13 @@
 		281FFF07AAD2365EA7FEBE3544C0EBA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		29FF13E23FD52E46D30530549410AD7C /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9D0752BD9D4858E0DB474B6E002E44 /* ImageTransition.swift */; };
 		2BE89C24BFD3FB663E37C607C289B3B6 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F05924C6C570D89A7EF40CC75FC4482 /* RedirectHandler.swift */; };
+		31E6711DDDFE3D238EE515911ABFD36B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D643324D242DA336324BB0885E1D4 /* CustomTableViewCell.swift */; };
+		34B528EAEDCF33D2D867B5F8182CB3C7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FBC8CC5F2E2667CF171038BB7B4533 /* ReplaceMe.swift */; };
 		3AD5DBB915C2623991F7DBACD173BBB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		3AF7DB9AEFF47F1F7F91AF28440E4AC6 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2072E1F62CD06916E56643130D850 /* Filter.swift */; };
 		420C200A05BB29E1D299D1BADE9139D2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872D7EFA572ECEE8EF993C27196E16DD /* CFNetwork.framework */; };
 		457BE444ED617FA7D6851D6DAA9D7234 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BC1B5D0E9D6745A8C2D402E0927FE /* Delegate.swift */; };
-		469F0C9DBD099EFFCB5DEFF2A405FD13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
+		479F1362CA5082EA453D5E3587FD155F /* Pods-StarRailXpress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EF6CF9D01D6C41FE2B78E8138172 /* Pods-StarRailXpress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DCA9775E5CCF599460BDB46E77F6FA4 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA4DC1F4A7270C57EF6B3CE1D43B5B /* Kingfisher-dummy.m */; };
 		4F37E521D341C47CE73DDCF21BA95A52 /* KingfisherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1DE2261D4A8F049E817D43B1D78FB2 /* KingfisherError.swift */; };
 		506128E1CC424E40E2691546D9547549 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A89F03EB91E27D111658D24A42706 /* Placeholder.swift */; };
@@ -41,25 +46,29 @@
 		57FC31B14C753B5C63CEF00560F8A6EF /* SizeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0577C17000F0186FBDC55B6341BD085 /* SizeExtensions.swift */; };
 		582D59E0D2EF62E0575933C99B393704 /* GraphicsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD354DCD1C586F20F448E288A34727AD /* GraphicsContext.swift */; };
 		59BC9047F4BEBBC06235608D974E230D /* NSTextAttachment+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E11A037CCACB0F80C8198F2A3066942 /* NSTextAttachment+Kingfisher.swift */; };
-		5A93C54168F842416E601853E47A408D /* Pods-StarRailXpress-StarRailXpressUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEF8F4B0D7CF33DE3052A8650EA440 /* Pods-StarRailXpress-StarRailXpressUITests-dummy.m */; };
 		5ADB30DD9A03859018550A999ACB0652 /* KFImageOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87B27C342F0BECDB124457A24C9079 /* KFImageOptions.swift */; };
 		5B862AF0266CEB149D36D5005EE0B23F /* Pods-StarRailXpressTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA35FD2ECF50880D519AA5757684445B /* Pods-StarRailXpressTests-dummy.m */; };
 		5E27DD292D3A55657712DD7AFA7B8FCA /* KFImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36255D6E904725FBD19ED8D84D9C39 /* KFImage.swift */; };
 		5F852F38CBC282496CCBE37C51324B2F /* ImageProgressive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2601D984AFC0E54B562FE838D8A618D /* ImageProgressive.swift */; };
+		6D967D1C3980B449CEE51A54516AB8D0 /* SkeletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3649C2756C132DA58C5339F2743EFAD /* SkeletonViewController.swift */; };
 		70FEC06F54286257E1BA1ECA0C99198D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B771C50BFD476BD763EB4B6AFF4E3D3B /* Image.swift */; };
 		7C7418FF01DD7BB909719682B634A8A5 /* SessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0940FE5A90B190B7FC193AB0F78BB0A /* SessionDataTask.swift */; };
 		7FFE4021A4F14124342AD41CE1117B3E /* KFAnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52A797E57B739CB6F9C9B97A0B372F /* KFAnimatedImage.swift */; };
 		80738D8956C9987CCCEDF551961E5069 /* ImageDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBF7A8EDFDD0832E4E1C9E23233192 /* ImageDataProcessor.swift */; };
+		855DAC144E25A946D827B85CD68C3F8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		881A35B28D93C56E46E305F6138B1A76 /* ImageDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F00E5F3BA70304E1B24F1099FC1CDD /* ImageDownloaderDelegate.swift */; };
+		8D548C424B375614671F52AC3D6B26DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		97FA615BBD70B2514DC0E953EBD41241 /* Pods-StarRailXpressTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5F8C4AC6B876D592D0740531FD11A2 /* Pods-StarRailXpressTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B0A78AC22E7EDA755F51D86527E2D9C /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80C8DF07DE68BD320E2ED991DC7644 /* Source.swift */; };
 		9F5FE22DA95B66B8DC21CB13BE25EC9B /* WKInterfaceImage+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775539679F9FE4628F30B900CAF405C5 /* WKInterfaceImage+Kingfisher.swift */; };
 		A316388A35648CB2987E761771456087 /* KFOptionsSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029044C6D7D00F27666ECE521E889FA1 /* KFOptionsSetter.swift */; };
 		A39D3555EC8B45B7D6B9505DDAF0F117 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68005D13E0D1CECCFFB74EB0A945344A /* Kingfisher.swift */; };
 		A88A844D5356E1690E445024CB796E09 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9FF0A2D9CFC0A55619C01509FE39AD /* Result.swift */; };
-		AF3B5B306A7C07718C47E28E7F0A04E7 /* Pods-StarRailXpress-StarRailXpressUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 386FE2BFF800F85470E7722B00620D4F /* Pods-StarRailXpress-StarRailXpressUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADD9A0EAFBA9CCF64E295085761D7200 /* ModuleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47013E10F5FB7D6AB7AE9D703A519F6E /* ModuleCoordinator.swift */; };
 		B25E07EA645911443A38DA1E68166156 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C48F100FDE22BFB15051865715725B4 /* Box.swift */; };
+		B83E7560E3E5A55245A1B9F599AE87DE /* Pods-StarRailXpress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1365291F8C75A9BE45113B581450056F /* Pods-StarRailXpress-dummy.m */; };
 		BD382E78580D295D10100678D4F66A76 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B91AC259E30C968881C4939849071 /* String+MD5.swift */; };
+		CC932DE993566534BC35B330EE1C6209 /* SkeletonTableRail-SkeletonTableRail in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A3F6E872C964EEC7A425C1A3A773C /* SkeletonTableRail-SkeletonTableRail */; };
 		CD7AC3E1C98EA54F7C05C36C52805220 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E790368DBD681BA616D4DD3FA72CB4B /* CacheSerializer.swift */; };
 		D603AA58EF97D461A57B2B1BCB883868 /* AVAssetImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BDACBA61F5292871A71751935F318 /* AVAssetImageDataProvider.swift */; };
 		DAFC6CE6321395CF4523DD66DADBB9BA /* ImageDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5D7388CB14E712D758F46F4534917F /* ImageDrawing.swift */; };
@@ -68,11 +77,12 @@
 		DE532EF7D50A9CF68587DAD4C1A02BD7 /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65699AFB29F8E6130A55C056D24A2206 /* FormatIndicatedCacheSerializer.swift */; };
 		DF4563832C19B8582C810BF502A5CA29 /* KF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB437FB57A98B3A8FF5DA65B3CF226 /* KF.swift */; };
 		DFCDE4638265B4CCD494ECA5D560DBEE /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B8776F93E0E8965FBD080CDE9DF3A1 /* Indicator.swift */; };
-		E4176F88D6C956FADF817F967E546CF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
+		E1DBC0F2AA3F573D2C017CBF89E0C033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
+		E4B4E679951F2950BC25ACE6EA1D4BF6 /* SkeletonTableRail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 953E160FE75B4CA7774E5E00E3EED643 /* SkeletonTableRail-dummy.m */; };
 		E5B664771063F1A9A372519A8466860B /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C246729A6105F01A8A16B833E99CD9F2 /* ImageView+Kingfisher.swift */; };
-		E60287A906F65E5780EE646E273AB13F /* Pods-StarRailXpress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1365291F8C75A9BE45113B581450056F /* Pods-StarRailXpress-dummy.m */; };
 		E6D6C7D5E458A05CC736C340F853E9F6 /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D3D8B77F20F80031C92EA09692AFD5 /* ImageFormat.swift */; };
 		E719A3B025B9DACE693130120BD9B927 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52554E1C9731D5352FDE9E63F8C5466B /* Accelerate.framework */; };
+		E7F46B44C71C446EA29F150B5B345562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5E681BB96F09287CB36BD2A68D8440 /* Main.storyboard */; };
 		EBB32304E8DD4BA115454E0050D47DED /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE897DB5466680E2D8ABC3A48F000A9B /* Runtime.swift */; };
 		ED0C8BA7560D7324587B353E0960479F /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E661172480B126148380918F644BF2 /* ImageCache.swift */; };
 		EF9C4588CDA85AED8BBCF77451B2A35B /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FA3D7214C5808A9F039510AA71F67 /* ImageProcessor.swift */; };
@@ -85,21 +95,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C87980D35130797D3414788CA07CC09 /* PBXContainerItemProxy */ = {
+		0CB15173E57FAAACA2C84CADC1AB81BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD91FEC0B98FF649DF49EB84AFB0DFA;
+			remoteInfo = SkeletonTableRail;
+		};
+		6CD83C041FB5E705032A2BACFDAE0724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8AFAD880E56513F772A8F7DF211ED7;
+			remoteInfo = "SkeletonTableRail-SkeletonTableRail";
+		};
+		8894B65CAC9FABFC8D40CEEBC5FB8FFC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2C578146792998D299FF316916193BFB;
 			remoteInfo = "Pods-StarRailXpress";
 		};
-		5E53BC6F76F919BB31330999BDF00BB2 /* PBXContainerItemProxy */ = {
+		A855F93EEEDFF5895E5A5CBB46D418FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD91FEC0B98FF649DF49EB84AFB0DFA;
+			remoteInfo = SkeletonTableRail;
+		};
+		DF253B7088B2A3512290847AFEC3039B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
 			remoteInfo = Kingfisher;
 		};
-		76FDBF658717F6893F2D6CE3B69CB1E4 /* PBXContainerItemProxy */ = {
+		EA306CBA6853AF3E78EC84C445F3C8E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -109,6 +140,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00FBC8CC5F2E2667CF171038BB7B4533 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SkeletonTableRail/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		029044C6D7D00F27666ECE521E889FA1 /* KFOptionsSetter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFOptionsSetter.swift; path = Sources/General/KFOptionsSetter.swift; sourceTree = "<group>"; };
 		02C3EDC15BA444AD43688F22FFAC5C31 /* Pods-StarRailXpress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarRailXpress.debug.xcconfig"; sourceTree = "<group>"; };
 		03EAF39A541139F880359ABBF141B137 /* Pods-StarRailXpress-StarRailXpressUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarRailXpress-StarRailXpressUITests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -116,6 +148,7 @@
 		0F59433A0ABD0F7F350EE2B03F5914D9 /* Pods-StarRailXpress-StarRailXpressUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarRailXpress-StarRailXpressUITests-frameworks.sh"; sourceTree = "<group>"; };
 		12D06CC38D45815EEBCD8B56C6DC131D /* Pods-StarRailXpressTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarRailXpressTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1365291F8C75A9BE45113B581450056F /* Pods-StarRailXpress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarRailXpress-dummy.m"; sourceTree = "<group>"; };
+		169FED4AB0C29BBD3C6CC46323673456 /* SkeletonTableRail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkeletonTableRail.debug.xcconfig; sourceTree = "<group>"; };
 		1B5D7388CB14E712D758F46F4534917F /* ImageDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDrawing.swift; path = Sources/Image/ImageDrawing.swift; sourceTree = "<group>"; };
 		1B87B27C342F0BECDB124457A24C9079 /* KFImageOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImageOptions.swift; path = Sources/SwiftUI/KFImageOptions.swift; sourceTree = "<group>"; };
 		1D1DE2261D4A8F049E817D43B1D78FB2 /* KingfisherError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherError.swift; path = Sources/General/KingfisherError.swift; sourceTree = "<group>"; };
@@ -125,17 +158,20 @@
 		26AFF28D05A0FFFFC7A6DC3461B561D2 /* Pods-StarRailXpress-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarRailXpress-acknowledgements.plist"; sourceTree = "<group>"; };
 		2C48F100FDE22BFB15051865715725B4 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Utility/Box.swift; sourceTree = "<group>"; };
 		2DCA4DC1F4A7270C57EF6B3CE1D43B5B /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		2E5E681BB96F09287CB36BD2A68D8440 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = SkeletonTableRail/Assets/Main.storyboard; sourceTree = "<group>"; };
 		30AD68F15E4D4918367FC88EB9DC8FCE /* ExtensionHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionHelpers.swift; path = Sources/Utility/ExtensionHelpers.swift; sourceTree = "<group>"; };
 		34418F6B45E144D15A671770073CEF6A /* Pods-StarRailXpressTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarRailXpressTests.modulemap"; sourceTree = "<group>"; };
 		357363806053CEF47701C270D5581426 /* Pods-StarRailXpress-StarRailXpressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarRailXpress-StarRailXpressUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3861378691381ECB410F328C6E0A4271 /* AuthenticationChallengeResponsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationChallengeResponsable.swift; path = Sources/Networking/AuthenticationChallengeResponsable.swift; sourceTree = "<group>"; };
 		386FE2BFF800F85470E7722B00620D4F /* Pods-StarRailXpress-StarRailXpressUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarRailXpress-StarRailXpressUITests-umbrella.h"; sourceTree = "<group>"; };
+		3A3DF67BC536539021D5F6BA5D2706F5 /* SkeletonTableRail-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkeletonTableRail-prefix.pch"; sourceTree = "<group>"; };
 		3BEFEB8E150978F18259E7EBF6FE592A /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/General/ImageSource/Resource.swift; sourceTree = "<group>"; };
 		3DA76E48675E34635A770C316E9FEB84 /* ImageBinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageBinder.swift; path = Sources/SwiftUI/ImageBinder.swift; sourceTree = "<group>"; };
 		3E790368DBD681BA616D4DD3FA72CB4B /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/Cache/CacheSerializer.swift; sourceTree = "<group>"; };
 		3F7CD0244735ED98CC33370A86716CD3 /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/Networking/ImageModifier.swift; sourceTree = "<group>"; };
 		3FFCF9A6DD6053503818A700B70487F4 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/Extensions/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47013E10F5FB7D6AB7AE9D703A519F6E /* ModuleCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleCoordinator.swift; path = SkeletonTableRail/Classes/ModuleCoordinator.swift; sourceTree = "<group>"; };
 		49D3D8B77F20F80031C92EA09692AFD5 /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = Sources/Image/ImageFormat.swift; sourceTree = "<group>"; };
 		4B9E2D4FE54D61A97120B592296602AE /* Pods-StarRailXpressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarRailXpressTests.release.xcconfig"; sourceTree = "<group>"; };
 		4CF4CAAA3C063399B55C612A56504A94 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/Networking/RequestModifier.swift; sourceTree = "<group>"; };
@@ -143,8 +179,10 @@
 		51F1101C83AEE77604DA897196C340D9 /* Kingfisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.release.xcconfig; sourceTree = "<group>"; };
 		52554E1C9731D5352FDE9E63F8C5466B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		55CDEBF628539501570B8E69863CA902 /* Pods-StarRailXpress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarRailXpress.release.xcconfig"; sourceTree = "<group>"; };
+		560F3C119C0816C143981CFB4081BD67 /* SkeletonTableRail.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SkeletonTableRail.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		57DBA903C8B91871A1B4432F452266FD /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Sources/Networking/SessionDelegate.swift; sourceTree = "<group>"; };
 		5931B95A56AD0B935497F293DF1CF1C5 /* Pods-StarRailXpress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarRailXpress.modulemap"; sourceTree = "<group>"; };
+		5972413675A3E2DC7FE8543D43276ADE /* SkeletonTableRail.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkeletonTableRail.modulemap; sourceTree = "<group>"; };
 		5C2C6E41D7EB3A8DE8FFC909AE674DC0 /* Pods-StarRailXpress */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-StarRailXpress"; path = Pods_StarRailXpress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CAB437FB57A98B3A8FF5DA65B3CF226 /* KF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KF.swift; path = Sources/General/KF.swift; sourceTree = "<group>"; };
 		63660A48C2E814A60A1D1F6D56CCF73E /* CallbackQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackQueue.swift; path = Sources/Utility/CallbackQueue.swift; sourceTree = "<group>"; };
@@ -166,7 +204,13 @@
 		7F05924C6C570D89A7EF40CC75FC4482 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Sources/Networking/RedirectHandler.swift; sourceTree = "<group>"; };
 		834D29E5C3E1BDF0E44CB3DAA4158A87 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/General/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
 		872D7EFA572ECEE8EF993C27196E16DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8AF103CD17FA5D9442D894CEECB31B53 /* ResourceBundle-SkeletonTableRail-SkeletonTableRail-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SkeletonTableRail-SkeletonTableRail-Info.plist"; sourceTree = "<group>"; };
+		8C48944D7B96CD67E16A9FA43E3D743A /* SkeletonTableRail */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkeletonTableRail; path = SkeletonTableRail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C87E40B23F1E8549A416BC1F293D9BB /* ImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProvider.swift; path = Sources/General/ImageSource/ImageDataProvider.swift; sourceTree = "<group>"; };
+		8D7A3F6E872C964EEC7A425C1A3A773C /* SkeletonTableRail-SkeletonTableRail */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SkeletonTableRail-SkeletonTableRail"; path = SkeletonTableRail.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		953E160FE75B4CA7774E5E00E3EED643 /* SkeletonTableRail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkeletonTableRail-dummy.m"; sourceTree = "<group>"; };
+		9728DBEDD9887800C4CEBD8BF3525426 /* SkeletonTableRail-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkeletonTableRail-Info.plist"; sourceTree = "<group>"; };
+		9913996B8456C84F5FBF15890A6F7F6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9A849478CAB6F9978208E8094FE89232 /* GIFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFAnimatedImage.swift; path = Sources/Image/GIFAnimatedImage.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A04C3DAF09A84C3BC421CDDD9DFC6B87 /* Pods-StarRailXpress-StarRailXpressUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarRailXpress-StarRailXpressUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -176,6 +220,7 @@
 		A8B8776F93E0E8965FBD080CDE9DF3A1 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Views/Indicator.swift; sourceTree = "<group>"; };
 		AA52A797E57B739CB6F9C9B97A0B372F /* KFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFAnimatedImage.swift; path = Sources/SwiftUI/KFAnimatedImage.swift; sourceTree = "<group>"; };
 		AA6D36F1AE424C28974D0BDFCF49EB25 /* Pods-StarRailXpress-StarRailXpressUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarRailXpress-StarRailXpressUITests-Info.plist"; sourceTree = "<group>"; };
+		AF946E567E24A252ADF8132B94986C99 /* SkeletonTableRail-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkeletonTableRail-umbrella.h"; sourceTree = "<group>"; };
 		B0940FE5A90B190B7FC193AB0F78BB0A /* SessionDataTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDataTask.swift; path = Sources/Networking/SessionDataTask.swift; sourceTree = "<group>"; };
 		B1CBA67B524A1232C8D9264CDE11C9D1 /* Pods-StarRailXpressTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarRailXpressTests-Info.plist"; sourceTree = "<group>"; };
 		B3799EF1BB9F91022F3940A336ABA8BB /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/Networking/ImagePrefetcher.swift; sourceTree = "<group>"; };
@@ -183,6 +228,7 @@
 		BAC669DAD4641F422E4824B7978D47B1 /* Pods-StarRailXpress-StarRailXpressUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-StarRailXpress-StarRailXpressUITests"; path = Pods_StarRailXpress_StarRailXpressUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9FF0A2D9CFC0A55619C01509FE39AD /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Utility/Result.swift; sourceTree = "<group>"; };
 		BDAFD1BCFDE52E8E0E0AE0D784590CD6 /* CPListItem+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CPListItem+Kingfisher.swift"; path = "Sources/Extensions/CPListItem+Kingfisher.swift"; sourceTree = "<group>"; };
+		BE240D483DC03F7FC0A263C374A449D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C0B8BB66619A56BE9921CB8D9DF82767 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/General/KingfisherManager.swift; sourceTree = "<group>"; };
 		C164151F1DD34151134DD11A5DEE119F /* TVMonogramView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TVMonogramView+Kingfisher.swift"; path = "Sources/Extensions/TVMonogramView+Kingfisher.swift"; sourceTree = "<group>"; };
 		C246729A6105F01A8A16B833E99CD9F2 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
@@ -200,20 +246,31 @@
 		D8F143F1D83379BDB9363E3B216AEF73 /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Sources/Cache/MemoryStorage.swift; sourceTree = "<group>"; };
 		DB36255D6E904725FBD19ED8D84D9C39 /* KFImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImage.swift; path = Sources/SwiftUI/KFImage.swift; sourceTree = "<group>"; };
 		DC9D0752BD9D4858E0DB474B6E002E44 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/Image/ImageTransition.swift; sourceTree = "<group>"; };
+		E3649C2756C132DA58C5339F2743EFAD /* SkeletonViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonViewController.swift; path = SkeletonTableRail/Classes/SkeletonViewController.swift; sourceTree = "<group>"; };
 		E3A4E5EB069981889652D07009794049 /* Pods-StarRailXpressTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-StarRailXpressTests"; path = Pods_StarRailXpressTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E672EF6CF9D01D6C41FE2B78E8138172 /* Pods-StarRailXpress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarRailXpress-umbrella.h"; sourceTree = "<group>"; };
 		EA35FD2ECF50880D519AA5757684445B /* Pods-StarRailXpressTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarRailXpressTests-dummy.m"; sourceTree = "<group>"; };
 		EAD6C58DFACF049FFC06D7048127BE36 /* Pods-StarRailXpress-StarRailXpressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarRailXpress-StarRailXpressUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EF1AB65E1A2AB40F7797604FA7FE88EA /* Pods-StarRailXpress-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarRailXpress-frameworks.sh"; sourceTree = "<group>"; };
+		EFE21E2BAFD927B42F6D9FC7D48DC35C /* SkeletonTableRail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkeletonTableRail.release.xcconfig; sourceTree = "<group>"; };
 		F0577C17000F0186FBDC55B6341BD085 /* SizeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeExtensions.swift; path = Sources/Utility/SizeExtensions.swift; sourceTree = "<group>"; };
 		F2601D984AFC0E54B562FE838D8A618D /* ImageProgressive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProgressive.swift; path = Sources/Image/ImageProgressive.swift; sourceTree = "<group>"; };
 		F66FA3D7214C5808A9F039510AA71F67 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/Image/ImageProcessor.swift; sourceTree = "<group>"; };
+		F95D643324D242DA336324BB0885E1D4 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = SkeletonTableRail/Classes/CustomTableViewCell.swift; sourceTree = "<group>"; };
 		FB80C8DF07DE68BD320E2ED991DC7644 /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = Sources/General/ImageSource/Source.swift; sourceTree = "<group>"; };
 		FE897DB5466680E2D8ABC3A48F000A9B /* Runtime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Runtime.swift; path = Sources/Utility/Runtime.swift; sourceTree = "<group>"; };
 		FF9BC1B5D0E9D6745A8C2D402E0927FE /* Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = Sources/Utility/Delegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0E69EEC4499CD2979F59951F9EFB112A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DBC0F2AA3F573D2C017CBF89E0C033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0EEED3F7FB35E0B4B6658EF104215697 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,11 +279,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1370C990FED4776AA4F17BAF8AE547D5 /* Frameworks */ = {
+		5E0E14E968E74A92D325B6D06C91A32B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4176F88D6C956FADF817F967E546CF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FC701AAD46BB33B17ECF38D051250C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855DAC144E25A946D827B85CD68C3F8B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,11 +304,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AFF62CA5ADA6C9C40584285B5ED1DA3 /* Frameworks */ = {
+		E9323CFC0648FFAAD8992791D6F78BB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				469F0C9DBD099EFFCB5DEFF2A405FD13 /* Foundation.framework in Frameworks */,
+				8D548C424B375614671F52AC3D6B26DF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +321,21 @@
 				5EE21CBB8EFB615AB450D209E054FAE6 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03F06D6164C40EF2F484BE925CAD8741 /* SkeletonTableRail */ = {
+			isa = PBXGroup;
+			children = (
+				F95D643324D242DA336324BB0885E1D4 /* CustomTableViewCell.swift */,
+				2E5E681BB96F09287CB36BD2A68D8440 /* Main.storyboard */,
+				47013E10F5FB7D6AB7AE9D703A519F6E /* ModuleCoordinator.swift */,
+				00FBC8CC5F2E2667CF171038BB7B4533 /* ReplaceMe.swift */,
+				E3649C2756C132DA58C5339F2743EFAD /* SkeletonViewController.swift */,
+				D43E7A7D7C90E4EBF41D3A9C4F43B13C /* Pod */,
+				22D3693A95454C216C0C46B7049B9E9F /* Support Files */,
+			);
+			name = SkeletonTableRail;
+			path = ../../SkeletonTableRail;
 			sourceTree = "<group>";
 		};
 		06A5FF926D3FB856EE8135F4DCE85836 /* Support Files */ = {
@@ -289,6 +368,22 @@
 			);
 			name = "Pods-StarRailXpress";
 			path = "Target Support Files/Pods-StarRailXpress";
+			sourceTree = "<group>";
+		};
+		22D3693A95454C216C0C46B7049B9E9F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AF103CD17FA5D9442D894CEECB31B53 /* ResourceBundle-SkeletonTableRail-SkeletonTableRail-Info.plist */,
+				5972413675A3E2DC7FE8543D43276ADE /* SkeletonTableRail.modulemap */,
+				953E160FE75B4CA7774E5E00E3EED643 /* SkeletonTableRail-dummy.m */,
+				9728DBEDD9887800C4CEBD8BF3525426 /* SkeletonTableRail-Info.plist */,
+				3A3DF67BC536539021D5F6BA5D2706F5 /* SkeletonTableRail-prefix.pch */,
+				AF946E567E24A252ADF8132B94986C99 /* SkeletonTableRail-umbrella.h */,
+				169FED4AB0C29BBD3C6CC46323673456 /* SkeletonTableRail.debug.xcconfig */,
+				EFE21E2BAFD927B42F6D9FC7D48DC35C /* SkeletonTableRail.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../StarRailXpress/Pods/Target Support Files/SkeletonTableRail";
 			sourceTree = "<group>";
 		};
 		319C988132714FE474AEE9656BD929D2 /* Pods-StarRailXpressTests */ = {
@@ -377,17 +472,6 @@
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
-		4E7C5C1A2E5A03EA4B0913A3FD89AE1D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */,
-				5C2C6E41D7EB3A8DE8FFC909AE674DC0 /* Pods-StarRailXpress */,
-				BAC669DAD4641F422E4824B7978D47B1 /* Pods-StarRailXpress-StarRailXpressUITests */,
-				E3A4E5EB069981889652D07009794049 /* Pods-StarRailXpressTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		5EE21CBB8EFB615AB450D209E054FAE6 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -406,6 +490,27 @@
 				319C988132714FE474AEE9656BD929D2 /* Pods-StarRailXpressTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A0A01D3B7F0D19C020628223C1A15682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */,
+				5C2C6E41D7EB3A8DE8FFC909AE674DC0 /* Pods-StarRailXpress */,
+				BAC669DAD4641F422E4824B7978D47B1 /* Pods-StarRailXpress-StarRailXpressUITests */,
+				E3A4E5EB069981889652D07009794049 /* Pods-StarRailXpressTests */,
+				8C48944D7B96CD67E16A9FA43E3D743A /* SkeletonTableRail */,
+				8D7A3F6E872C964EEC7A425C1A3A773C /* SkeletonTableRail-SkeletonTableRail */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B29621BEF5760D55BC05616064A08ABB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03F06D6164C40EF2F484BE925CAD8741 /* SkeletonTableRail */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B6BEB41088D5E6438D8912C0924952BD /* Pods-StarRailXpress-StarRailXpressUITests */ = {
@@ -429,11 +534,22 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B29621BEF5760D55BC05616064A08ABB /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				E1389CC10458FFF716AF4C00A167C48E /* Pods */,
-				4E7C5C1A2E5A03EA4B0913A3FD89AE1D /* Products */,
+				A0A01D3B7F0D19C020628223C1A15682 /* Products */,
 				79DDE9C221707EC1A7376229F0B5C587 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D43E7A7D7C90E4EBF41D3A9C4F43B13C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9913996B8456C84F5FBF15890A6F7F6D /* LICENSE */,
+				BE240D483DC03F7FC0A263C374A449D2 /* README.md */,
+				560F3C119C0816C143981CFB4081BD67 /* SkeletonTableRail.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E1389CC10458FFF716AF4C00A167C48E /* Pods */ = {
@@ -447,14 +563,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		365CF5275902813830E497A2C288BC9F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF3B5B306A7C07718C47E28E7F0A04E7 /* Pods-StarRailXpress-StarRailXpressUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7AE52B176E9872452FD890FC7F460CE1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -463,11 +571,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		949946D4E45C3D175DDF9E2930B50F1C /* Headers */ = {
+		97028B2D0368A21039B809D427E08D9B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF90B3FE071D5D301057D6C10AE3B7C /* Pods-StarRailXpress-umbrella.h in Headers */,
+				0F279753701BF829CD2C093F56DD7252 /* SkeletonTableRail-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A62DCAC2825931535BDE2BFEED545C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479F1362CA5082EA453D5E3587FD155F /* Pods-StarRailXpress-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,22 +595,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C51369324DF68DC87AEBEB88743B2BD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075F700BF2CB56728A9B232403F39876 /* Pods-StarRailXpress-StarRailXpressUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2C578146792998D299FF316916193BFB /* Pods-StarRailXpress */ = {
+		2B8AFAD880E56513F772A8F7DF211ED7 /* SkeletonTableRail-SkeletonTableRail */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74F04B28020BE8E4351567AF09F63539 /* Build configuration list for PBXNativeTarget "Pods-StarRailXpress" */;
+			buildConfigurationList = 55ADC2752F04B654304EC6E189C16BB0 /* Build configuration list for PBXNativeTarget "SkeletonTableRail-SkeletonTableRail" */;
 			buildPhases = (
-				949946D4E45C3D175DDF9E2930B50F1C /* Headers */,
-				8434743BB0EF1F177022EC908CF66B89 /* Sources */,
-				1370C990FED4776AA4F17BAF8AE547D5 /* Frameworks */,
-				CA596ABEC396277B3BFD2F79D5765220 /* Resources */,
+				2E408F05D96D637AFBC3E4A28C6AE3F5 /* Sources */,
+				5E0E14E968E74A92D325B6D06C91A32B /* Frameworks */,
+				7EB2F564F1594D59C0C9D4B463EBC670 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				48983C05AC99AAB61572E2CA167FBDE8 /* PBXTargetDependency */,
+			);
+			name = "SkeletonTableRail-SkeletonTableRail";
+			productName = SkeletonTableRail;
+			productReference = 8D7A3F6E872C964EEC7A425C1A3A773C /* SkeletonTableRail-SkeletonTableRail */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C578146792998D299FF316916193BFB /* Pods-StarRailXpress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 039CA29DC126BCD5080A538B8279CD06 /* Build configuration list for PBXNativeTarget "Pods-StarRailXpress" */;
+			buildPhases = (
+				9A62DCAC2825931535BDE2BFEED545C6 /* Headers */,
+				73DBEF2DAFE098CDA8EB68579950AA68 /* Sources */,
+				E9323CFC0648FFAAD8992791D6F78BB1 /* Frameworks */,
+				B2F8C8E727C4EA6F4BB8260B584F08E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1025202931A39FF51C9D1A84EB3B5841 /* PBXTargetDependency */,
+				380193A43E5E91D4672E177F93FE7CF8 /* PBXTargetDependency */,
 			);
 			name = "Pods-StarRailXpress";
 			productName = Pods_StarRailXpress;
@@ -503,17 +645,18 @@
 		};
 		78C8C15B0EE5BCA199E25CED9DC22822 /* Pods-StarRailXpress-StarRailXpressUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07EC639C99E041748EEF92484CCF9592 /* Build configuration list for PBXNativeTarget "Pods-StarRailXpress-StarRailXpressUITests" */;
+			buildConfigurationList = 40E07AF43AC72E060C86C4D99C774E7E /* Build configuration list for PBXNativeTarget "Pods-StarRailXpress-StarRailXpressUITests" */;
 			buildPhases = (
-				365CF5275902813830E497A2C288BC9F /* Headers */,
-				2DBFDDF598040BC1C15774EBC46EA68B /* Sources */,
-				9AFF62CA5ADA6C9C40584285B5ED1DA3 /* Frameworks */,
-				6C0816B2955008AEF458B0A9A021F293 /* Resources */,
+				C51369324DF68DC87AEBEB88743B2BD4 /* Headers */,
+				6930AE575C0C7BD61FA128C7C0D96A6D /* Sources */,
+				0E69EEC4499CD2979F59951F9EFB112A /* Frameworks */,
+				8907AE4CA603CB3F5701A8AED256BD6D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0EFDEB1162E69980104760D5519A441E /* PBXTargetDependency */,
+				0F0619AA31855A1CEA7602E61DAB0105 /* PBXTargetDependency */,
+				407B194671FDA0C3210C0E2854881A2C /* PBXTargetDependency */,
 			);
 			name = "Pods-StarRailXpress-StarRailXpressUITests";
 			productName = Pods_StarRailXpress_StarRailXpressUITests;
@@ -538,6 +681,25 @@
 			productReference = C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */;
 			productType = "com.apple.product-type.framework";
 		};
+		EAD91FEC0B98FF649DF49EB84AFB0DFA /* SkeletonTableRail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4037805FD8F0A00D82EA55FFB35BDE7E /* Build configuration list for PBXNativeTarget "SkeletonTableRail" */;
+			buildPhases = (
+				97028B2D0368A21039B809D427E08D9B /* Headers */,
+				687332BB4086C0B9291A519A2898A2EA /* Sources */,
+				79FC701AAD46BB33B17ECF38D051250C /* Frameworks */,
+				03936794EEBB707BB0844CA003509D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17EC7E3AA0965E5BD19C2D6B73FF24E6 /* PBXTargetDependency */,
+			);
+			name = SkeletonTableRail;
+			productName = SkeletonTableRail;
+			productReference = 8C48944D7B96CD67E16A9FA43E3D743A /* SkeletonTableRail */;
+			productType = "com.apple.product-type.framework";
+		};
 		F4A624410B4F0D01204DFFB805A840B9 /* Pods-StarRailXpressTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 372567D2CE42C7CD8030F7747281C245 /* Build configuration list for PBXNativeTarget "Pods-StarRailXpressTests" */;
@@ -550,7 +712,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				967A2F26A918145722FBA6D2435589BF /* PBXTargetDependency */,
+				2C415D17159B4463A9D5769AAC1BE9DD /* PBXTargetDependency */,
 			);
 			name = "Pods-StarRailXpressTests";
 			productName = Pods_StarRailXpressTests;
@@ -563,11 +725,11 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -575,7 +737,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4E7C5C1A2E5A03EA4B0913A3FD89AE1D /* Products */;
+			productRefGroup = A0A01D3B7F0D19C020628223C1A15682 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -583,12 +745,38 @@
 				2C578146792998D299FF316916193BFB /* Pods-StarRailXpress */,
 				78C8C15B0EE5BCA199E25CED9DC22822 /* Pods-StarRailXpress-StarRailXpressUITests */,
 				F4A624410B4F0D01204DFFB805A840B9 /* Pods-StarRailXpressTests */,
+				EAD91FEC0B98FF649DF49EB84AFB0DFA /* SkeletonTableRail */,
+				2B8AFAD880E56513F772A8F7DF211ED7 /* SkeletonTableRail-SkeletonTableRail */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6C0816B2955008AEF458B0A9A021F293 /* Resources */ = {
+		03936794EEBB707BB0844CA003509D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4E594589FB6B5E83F054524D083254 /* Main.storyboard in Resources */,
+				CC932DE993566534BC35B330EE1C6209 /* SkeletonTableRail-SkeletonTableRail in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB2F564F1594D59C0C9D4B463EBC670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F46B44C71C446EA29F150B5B345562 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8907AE4CA603CB3F5701A8AED256BD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F8C8E727C4EA6F4BB8260B584F08E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -596,13 +784,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B5ADBBD0132555C4486460ACE8195D9D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA596ABEC396277B3BFD2F79D5765220 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -619,11 +800,10 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2DBFDDF598040BC1C15774EBC46EA68B /* Sources */ = {
+		2E408F05D96D637AFBC3E4A28C6AE3F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A93C54168F842416E601853E47A408D /* Pods-StarRailXpress-StarRailXpressUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,11 +876,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8434743BB0EF1F177022EC908CF66B89 /* Sources */ = {
+		687332BB4086C0B9291A519A2898A2EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E60287A906F65E5780EE646E273AB13F /* Pods-StarRailXpress-dummy.m in Sources */,
+				31E6711DDDFE3D238EE515911ABFD36B /* CustomTableViewCell.swift in Sources */,
+				ADD9A0EAFBA9CCF64E295085761D7200 /* ModuleCoordinator.swift in Sources */,
+				34B528EAEDCF33D2D867B5F8182CB3C7 /* ReplaceMe.swift in Sources */,
+				E4B4E679951F2950BC25ACE6EA1D4BF6 /* SkeletonTableRail-dummy.m in Sources */,
+				6D967D1C3980B449CEE51A54516AB8D0 /* SkeletonViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6930AE575C0C7BD61FA128C7C0D96A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D03203F0E83D6212880F389B79E990 /* Pods-StarRailXpress-StarRailXpressUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73DBEF2DAFE098CDA8EB68579950AA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83E7560E3E5A55245A1B9F599AE87DE /* Pods-StarRailXpress-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,28 +915,46 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0EFDEB1162E69980104760D5519A441E /* PBXTargetDependency */ = {
+		0F0619AA31855A1CEA7602E61DAB0105 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kingfisher;
 			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
-			targetProxy = 5E53BC6F76F919BB31330999BDF00BB2 /* PBXContainerItemProxy */;
+			targetProxy = EA306CBA6853AF3E78EC84C445F3C8E1 /* PBXContainerItemProxy */;
 		};
-		48983C05AC99AAB61572E2CA167FBDE8 /* PBXTargetDependency */ = {
+		1025202931A39FF51C9D1A84EB3B5841 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kingfisher;
 			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
-			targetProxy = 76FDBF658717F6893F2D6CE3B69CB1E4 /* PBXContainerItemProxy */;
+			targetProxy = DF253B7088B2A3512290847AFEC3039B /* PBXContainerItemProxy */;
 		};
-		967A2F26A918145722FBA6D2435589BF /* PBXTargetDependency */ = {
+		17EC7E3AA0965E5BD19C2D6B73FF24E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SkeletonTableRail-SkeletonTableRail";
+			target = 2B8AFAD880E56513F772A8F7DF211ED7 /* SkeletonTableRail-SkeletonTableRail */;
+			targetProxy = 6CD83C041FB5E705032A2BACFDAE0724 /* PBXContainerItemProxy */;
+		};
+		2C415D17159B4463A9D5769AAC1BE9DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-StarRailXpress";
 			target = 2C578146792998D299FF316916193BFB /* Pods-StarRailXpress */;
-			targetProxy = 0C87980D35130797D3414788CA07CC09 /* PBXContainerItemProxy */;
+			targetProxy = 8894B65CAC9FABFC8D40CEEBC5FB8FFC /* PBXContainerItemProxy */;
+		};
+		380193A43E5E91D4672E177F93FE7CF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkeletonTableRail;
+			target = EAD91FEC0B98FF649DF49EB84AFB0DFA /* SkeletonTableRail */;
+			targetProxy = A855F93EEEDFF5895E5A5CBB46D418FF /* PBXContainerItemProxy */;
+		};
+		407B194671FDA0C3210C0E2854881A2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkeletonTableRail;
+			target = EAD91FEC0B98FF649DF49EB84AFB0DFA /* SkeletonTableRail */;
+			targetProxy = 0CB15173E57FAAACA2C84CADC1AB81BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B708322C529C74BFA497FF8D020DE69 /* Release */ = {
+		21B98B892428D49926E4B6A36B1B2072 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55CDEBF628539501570B8E69863CA902 /* Pods-StarRailXpress.release.xcconfig */;
 			buildSettings = {
@@ -752,7 +970,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-StarRailXpress/Pods-StarRailXpress-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -774,9 +992,9 @@
 			};
 			name = Release;
 		};
-		1968DD1E74264FE1ABD1960B482CD943 /* Release */ = {
+		34DF3E3D0F9A6D9D0CBB2277C1988CC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B9E2D4FE54D61A97120B592296602AE /* Pods-StarRailXpressTests.release.xcconfig */;
+			baseConfigurationReference = 02C3EDC15BA444AD43688F22FFAC5C31 /* Pods-StarRailXpress.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -788,16 +1006,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StarRailXpressTests/Pods-StarRailXpressTests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarRailXpress/Pods-StarRailXpress-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StarRailXpressTests/Pods-StarRailXpressTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-StarRailXpress/Pods-StarRailXpress.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -806,13 +1024,65 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CE73712703545B4782FD2BA5BC17026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE21E2BAFD927B42F6D9FC7D48DC35C /* SkeletonTableRail.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SkeletonTableRail";
+				IBSC_MODULE = SkeletonTableRail;
+				INFOPLIST_FILE = "Target Support Files/SkeletonTableRail/ResourceBundle-SkeletonTableRail-SkeletonTableRail-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = SkeletonTableRail;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		543A3964F5CB950FFC9FE0959E265F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE21E2BAFD927B42F6D9FC7D48DC35C /* SkeletonTableRail.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkeletonTableRail/SkeletonTableRail-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkeletonTableRail/SkeletonTableRail-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkeletonTableRail/SkeletonTableRail.modulemap";
+				PRODUCT_MODULE_NAME = SkeletonTableRail;
+				PRODUCT_NAME = SkeletonTableRail;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		4CC2810F5A3FA921ECA89BD7E10DB0B5 /* Release */ = {
+		735A48F2183029EF0F635A5E06589D56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EAD6C58DFACF049FFC06D7048127BE36 /* Pods-StarRailXpress-StarRailXpressUITests.release.xcconfig */;
 			buildSettings = {
@@ -828,7 +1098,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-StarRailXpress-StarRailXpressUITests/Pods-StarRailXpress-StarRailXpressUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -850,7 +1120,62 @@
 			};
 			name = Release;
 		};
-		6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */ = {
+		737A0D6B60E9A1D3673B67C16D1EA359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B9E2D4FE54D61A97120B592296602AE /* Pods-StarRailXpressTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarRailXpressTests/Pods-StarRailXpressTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarRailXpressTests/Pods-StarRailXpressTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87418792D08E6C6A80CEA03BF9DA5DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169FED4AB0C29BBD3C6CC46323673456 /* SkeletonTableRail.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SkeletonTableRail";
+				IBSC_MODULE = SkeletonTableRail;
+				INFOPLIST_FILE = "Target Support Files/SkeletonTableRail/ResourceBundle-SkeletonTableRail-SkeletonTableRail-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = SkeletonTableRail;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -903,7 +1228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -916,152 +1241,7 @@
 			};
 			name = Debug;
 		};
-		6A783AD3270E5FD1D16ADAC8FA603583 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68130EF2408D1BD39E1B6C6D2E508DC6 /* Pods-StarRailXpressTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StarRailXpressTests/Pods-StarRailXpressTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StarRailXpressTests/Pods-StarRailXpressTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		980A58862D8A5086E2825CF9017AC8DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 647A1E17AB2571B588D0802392B7125A /* Kingfisher.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Kingfisher/Kingfisher-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
-				PRODUCT_MODULE_NAME = Kingfisher;
-				PRODUCT_NAME = Kingfisher;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BFD9E4B58F44191AF73A3434AAF6831F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51F1101C83AEE77604DA897196C340D9 /* Kingfisher.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Kingfisher/Kingfisher-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
-				PRODUCT_MODULE_NAME = Kingfisher;
-				PRODUCT_NAME = Kingfisher;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C3ED38DEB8E44754887C4712079577CE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 357363806053CEF47701C270D5581426 /* Pods-StarRailXpress-StarRailXpressUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StarRailXpress-StarRailXpressUITests/Pods-StarRailXpress-StarRailXpressUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StarRailXpress-StarRailXpressUITests/Pods-StarRailXpress-StarRailXpressUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E873CA97BD124B21839AF13C9BE1CD18 /* Release */ = {
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1111,7 +1291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1123,9 +1303,44 @@
 			};
 			name = Release;
 		};
-		FFED59A1E863524703D29C5A7850FC27 /* Debug */ = {
+		980A58862D8A5086E2825CF9017AC8DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02C3EDC15BA444AD43688F22FFAC5C31 /* Pods-StarRailXpress.debug.xcconfig */;
+			baseConfigurationReference = 647A1E17AB2571B588D0802392B7125A /* Kingfisher.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Kingfisher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				PRODUCT_MODULE_NAME = Kingfisher;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA68A065BCC2E4AFF748E0F6B847E6F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68130EF2408D1BD39E1B6C6D2E508DC6 /* Pods-StarRailXpressTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1137,16 +1352,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StarRailXpress/Pods-StarRailXpress-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarRailXpressTests/Pods-StarRailXpressTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StarRailXpress/Pods-StarRailXpress.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-StarRailXpressTests/Pods-StarRailXpressTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1160,14 +1375,122 @@
 			};
 			name = Debug;
 		};
+		BFD9E4B58F44191AF73A3434AAF6831F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F1101C83AEE77604DA897196C340D9 /* Kingfisher.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Kingfisher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				PRODUCT_MODULE_NAME = Kingfisher;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB21B411066840612FA860BC18E2320C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 357363806053CEF47701C270D5581426 /* Pods-StarRailXpress-StarRailXpressUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarRailXpress-StarRailXpressUITests/Pods-StarRailXpress-StarRailXpressUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarRailXpress-StarRailXpressUITests/Pods-StarRailXpress-StarRailXpressUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2509B787F894F48A475F0D6038DBF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169FED4AB0C29BBD3C6CC46323673456 /* SkeletonTableRail.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkeletonTableRail/SkeletonTableRail-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkeletonTableRail/SkeletonTableRail-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkeletonTableRail/SkeletonTableRail.modulemap";
+				PRODUCT_MODULE_NAME = SkeletonTableRail;
+				PRODUCT_NAME = SkeletonTableRail;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07EC639C99E041748EEF92484CCF9592 /* Build configuration list for PBXNativeTarget "Pods-StarRailXpress-StarRailXpressUITests" */ = {
+		039CA29DC126BCD5080A538B8279CD06 /* Build configuration list for PBXNativeTarget "Pods-StarRailXpress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3ED38DEB8E44754887C4712079577CE /* Debug */,
-				4CC2810F5A3FA921ECA89BD7E10DB0B5 /* Release */,
+				34DF3E3D0F9A6D9D0CBB2277C1988CC8 /* Debug */,
+				21B98B892428D49926E4B6A36B1B2072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1175,8 +1498,26 @@
 		372567D2CE42C7CD8030F7747281C245 /* Build configuration list for PBXNativeTarget "Pods-StarRailXpressTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A783AD3270E5FD1D16ADAC8FA603583 /* Debug */,
-				1968DD1E74264FE1ABD1960B482CD943 /* Release */,
+				BA68A065BCC2E4AFF748E0F6B847E6F5 /* Debug */,
+				737A0D6B60E9A1D3673B67C16D1EA359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4037805FD8F0A00D82EA55FFB35BDE7E /* Build configuration list for PBXNativeTarget "SkeletonTableRail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2509B787F894F48A475F0D6038DBF13 /* Debug */,
+				543A3964F5CB950FFC9FE0959E265F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E07AF43AC72E060C86C4D99C774E7E /* Build configuration list for PBXNativeTarget "Pods-StarRailXpress-StarRailXpressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB21B411066840612FA860BC18E2320C /* Debug */,
+				735A48F2183029EF0F635A5E06589D56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1184,8 +1525,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */,
-				E873CA97BD124B21839AF13C9BE1CD18 /* Release */,
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ADC2752F04B654304EC6E189C16BB0 /* Build configuration list for PBXNativeTarget "SkeletonTableRail-SkeletonTableRail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87418792D08E6C6A80CEA03BF9DA5DF0 /* Debug */,
+				3CE73712703545B4782FD2BA5BC17026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1195,15 +1545,6 @@
 			buildConfigurations = (
 				980A58862D8A5086E2825CF9017AC8DD /* Debug */,
 				BFD9E4B58F44191AF73A3434AAF6831F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		74F04B28020BE8E4351567AF09F63539 /* Build configuration list for PBXNativeTarget "Pods-StarRailXpress" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FFED59A1E863524703D29C5A7850FC27 /* Debug */,
-				0B708322C529C74BFA497FF8D020DE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,16 +1,23 @@
 PODS:
   - Kingfisher (7.9.1)
+  - SkeletonTableRail (0.1.0)
 
 DEPENDENCIES:
   - Kingfisher (~> 7.0)
+  - SkeletonTableRail (from `../SkeletonTableRail`)
 
 SPEC REPOS:
   trunk:
     - Kingfisher
 
+EXTERNAL SOURCES:
+  SkeletonTableRail:
+    :path: "../SkeletonTableRail"
+
 SPEC CHECKSUMS:
   Kingfisher: 1d14e9f59cbe19389f591c929000332bf70efd32
+  SkeletonTableRail: e0ee6661ddf3e70490e70aa523c634e997ea1e57
 
-PODFILE CHECKSUM: cf0c448ad195c87ab731261520cf9375d4b5b439
+PODFILE CHECKSUM: 9d0aff72e6d3b7705cc8ad7dd5df34d7cf2cbffe
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.15.0
