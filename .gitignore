@@ -1,0 +1,49 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+*.xcuserdatad
+*.xcschemes
+*.moved-aside
+*.swp
+*.lock
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+# Xcode-generated files
+*.hmap
+*.ipa
+*.dSYM
+*.xcent
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+playground.xcuserstate
+
+# macOS Finder
+.DS_Store
+
+# Xcode schemes
+*.xcscheme
+
+# Xcode CoreData
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Crashlytics
+crashlytics-data/
+
